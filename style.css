@@ -1,0 +1,83 @@
+/* Write some CSS below */
+body {
+font-family: Overpass;
+font-size: 18px;
+font-family: fantasy;
+color: rgb(30, 30, 30);
+background-color: rgb(100, 100, 100);
+}
+
+a {
+text-decoration: none;
+}
+
+h1, h2, h3{
+font-family: fantasy;
+}
+
+.banner {
+text-align: center;
+background-image: url(images/banner.jpg);
+background-position: center;
+background-size: cover;
+padding: 100px 0px;
+color: white;
+}
+
+.banner h1 {
+font-size: 45px;
+}
+
+.banner p{
+font-size: 27px;
+}
+
+.btn-yellow {
+color: black;
+background-color: #229954;
+padding: 15px 45px;
+margin-top: 30px;
+border-radius: 4px;
+}
+
+.btn-yellow:hover{
+color: darkred;
+}
+
+.card-white img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+background-color: #229954;
+border-radius: 4px;
+}
+
+.card-white {
+background-color: #229954;
+width: 220px;
+padding: 24px;
+text-align: center;
+margin: 8px;
+border-radius: 4px;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+width: 900px;
+margin: auto;
+text-align: center;
+margin-bottom: 24px;
+ }
+
+ .footer {
+  texte-align: center;
+  font-family: fantasy;
+  background-color: rgb(250, 250, 250);
+  padding: 16px;
+ }
+
+ .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+ }
